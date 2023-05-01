@@ -198,3 +198,5 @@ insert into Orders (id, customer_id, order_date, total_amount, status) values (1
 insert into Orders (id, customer_id, order_date, total_amount, status) values (148, 12, '2022-04-20 14:07:09', 58.28, 'completed');
 insert into Orders (id, customer_id, order_date, total_amount, status) values (149, 6, '2021-09-29 06:10:00', 749.51, 'refunded');
 insert into Orders (id, customer_id, order_date, total_amount, status) values (150, 13, '2021-06-30 11:11:20', 635.99, 'declined');
+
+DELETE FROM Orders WHERE customer_id IN (3, 6, 10, 18, 28);
